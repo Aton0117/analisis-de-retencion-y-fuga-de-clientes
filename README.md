@@ -1,5 +1,7 @@
 # 📊 Análisis de Retención y Abandono de Clientes (Telco Churn)
 
+Proyecto de análisis de clientes orientado a identificar los principales factores asociados al abandono (Churn) y generar insights para apoyar estrategias de retención en una empresa de telecomunicaciones.
+
 <p align="center">
   <img src="img/inicio_dashboard.png" alt="Dashboard Preview" width="100%">
 </p>
@@ -7,6 +9,17 @@
 ## 🎯 Descripción del Proyecto
 Este proyecto simula un pipeline de datos completo y el desarrollo de un **Dashboard Ejecutivo en Power BI** enfocado en el análisis de clientes de telecomunicaciones. Los datos fueron procesados mediante scripts de **Python**, almacenados y consultados utilizando una base de datos **SQLite3**, y finalmente visualizados para identificar los factores críticos que impulsan la deserción (Churn) y respaldar la toma de decisiones estratégicas.
 
+---
+
+## 📂 Sobre los Datos
+* **Origen**: Dataset público de telecomunicaciones obtenido de Kaggle (*Telco Customer Churn*).
+* **Volumetría**: 7,043 registros de clientes y 21 variables analíticas.
+* **Variable Objetivo**: `Churn` (indica si el cliente canceló el servicio o continúa activo).
+
+---
+
+## 🔄 Flujo del Proyecto
+El desarrollo siguió un pipeline analítico de extremo a extremo:
 ---
 
 ## 🛠️ Tecnologías y Herramientas Utilizadas
@@ -40,6 +53,11 @@ Este proyecto simula un pipeline de datos completo y el desarrollo de un **Dashb
 
 ---
 
+## 🏁 Conclusión
+El análisis permitió identificar que la antigüedad del cliente, el tipo de contrato y el método de pago son factores determinantes en el abandono. Estos hallazgos aportan una base empírica sólida para diseñar estrategias de retención dirigidas y campañas preventivas enfocadas en los segmentos con mayor riesgo de fuga en su etapa inicial.
+
+---
+
 ## 🚀 Cómo Visualizar el Proyecto
 1. Puedes clonar este repositorio o descargar los archivos del proyecto.
-2. Abre el archivo `.pbix` en **Power BI Desktop** para interactuar con el filtro dinámico de permanencia por antigüedad.
+2. Abre el archivo `.pbix` ubicado en la carpeta `dashboards` usando **Power BI Desktop** para interactuar con el filtro dinámico de permanencia por antigüedad.
