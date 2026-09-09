@@ -20,6 +20,9 @@ Este proyecto simula un pipeline de datos completo y el desarrollo de un **Dashb
 
 ## 🔄 Flujo del Proyecto
 El desarrollo siguió un pipeline analítico de extremo a extremo:
+
+    Datos Crudos (CSV) ──> Python (ETL / Limpieza) ──> Base de Datos (SQLite3) ──> Modelado (Power BI / DAX) ──> Dashboard & Insights
+
 ---
 
 ## 🛠️ Tecnologías y Herramientas Utilizadas
